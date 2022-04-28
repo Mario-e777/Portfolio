@@ -1,0 +1,13 @@
+.container {
+  height: 100vh;
+  width: 100vw;
+}
+
+.main {
+  height: 100%;
+  display: grid;
+  grid-template-columns: var(--columns-layout);
+  grid-template-rows: var(--rows-layout);
+  grid-auto-rows: var(--rows-layout);
+}
+
