@@ -2,12 +2,10 @@
 import StyledComponent from 'styled-components';
 
 const HeaderContainer = StyledComponent.header`
-  grid-column: 1/16;
+  grid-column: 1/-1;
   grid-row: 1/4;
-  display: grid;
-  grid-template-columns: var(--columns-layout);
-  grid-template-rows: 1.33rem 1fr 1.33rem;
-  
+  display: contents;
+
   .brand {
     grid-column: 2/7;
     grid-row: 2/4;
