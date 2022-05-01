@@ -12,6 +12,7 @@ const HeroSectionContainer = styled.section`
       grid-row: 5/6;
       display: flex;
       flex-direction: column;
+      height: fit-content;
       row-gap: 1.33rem;
       padding: 2.66rem;
       border-radius: 0 7px 7px 0;
